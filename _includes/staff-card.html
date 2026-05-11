@@ -9,6 +9,7 @@
   <div class="card-body">
     <h3 class="card-name">{{ include.member.name }}</h3>
     {% if include.member.title %}<p class="card-title">{{ include.member.title }}</p>{% endif %}
+    {% if include.member.institution %}<p class="card-institution">{{ include.member.institution }}</p>{% endif %}
     {% if include.member.bio %}<p class="card-bio">{{ include.member.bio }}</p>{% endif %}
     {% if include.member.email %}<p class="card-email"><a href="mailto:{{ include.member.email }}">{{ include.member.email }}</a></p>{% endif %}
   </div>

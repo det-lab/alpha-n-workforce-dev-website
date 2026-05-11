@@ -1,17 +1,25 @@
 <div class="card resource-card">
   <div class="card-body">
     <h3 class="card-name">
-      {% if include.resource.url and include.resource.url != "#" %}
+      {% if include.resource.url and include.resource.url != "" %}
         <a href="{{ include.resource.url }}" target="_blank" rel="noopener">{{ include.resource.title }}</a>
       {% else %}
         {{ include.resource.title }}
       {% endif %}
     </h3>
     {% if include.resource.description %}<p class="card-bio">{{ include.resource.description }}</p>{% endif %}
-    {% if include.resource.url and include.resource.url != "#" %}
+
+    {% if include.resource.url_mac or include.resource.url_windows %}
+      <div class="resource-platform-links">
+        {% if include.resource.url_mac %}
+          <a class="resource-link platform-link" href="{{ include.resource.url_mac }}" target="_blank" rel="noopener">Mac &rarr;</a>
+        {% endif %}
+        {% if include.resource.url_windows %}
+          <a class="resource-link platform-link" href="{{ include.resource.url_windows }}" target="_blank" rel="noopener">Windows &rarr;</a>
+        {% endif %}
+      </div>
+    {% elsif include.resource.url and include.resource.url != "" %}
       <a class="resource-link" href="{{ include.resource.url }}" target="_blank" rel="noopener">Visit &rarr;</a>
-    {% else %}
-      <span class="resource-link coming-soon">Coming soon</span>
     {% endif %}
   </div>
 </div>

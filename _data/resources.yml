@@ -1,26 +1,62 @@
 - category: "Getting Started"
   items:
-    - title: "Program Handbook"
-      description: "The official program handbook covering expectations, policies, and procedures."
-      url: "#"
-    - title: "Onboarding Checklist"
-      description: "Step-by-step checklist for new program participants."
-      url: "#"
+    - title: "Google Group"
+      description: "The program communicates through a Google Group. Contact Amy Roberts (amy.roberts@ucdenver.edu) or James deBoer (Richard.J.deBoer.12@nd.edu) to be added. Once you're a member you'll receive program emails and can browse the full message history."
+      url: ""
 
-- category: "Technical Skills"
-  items:
-    - title: "Resource Title"
-      description: "Description of this technical resource. Replace with a real link and content."
-      url: "#"
-    - title: "Resource Title"
-      description: "Description of this technical resource. Replace with a real link and content."
-      url: "#"
+    - title: "Program Data"
+      description: "Data for the program is distributed through the Google Group. Once you have been added to the group, follow the instructions there to access the data files."
+      url: ""
 
-- category: "Professional Development"
+    - title: "Code Repository"
+      description: "The analysis code lives on GitHub. Request write access by contacting the program staff, then clone the repository to your local machine to get started."
+      url: "https://github.com/det-lab/alpha-n-analysis/tree/main"
+
+- category: "Software Installation"
   items:
-    - title: "Resource Title"
-      description: "Description of this professional development resource."
-      url: "#"
-    - title: "Resource Title"
-      description: "Description of this professional development resource."
-      url: "#"
+    - title: "Terminal"
+      description: "A terminal gives you access to the command line. On Mac, Terminal is built in — no installation needed. On Windows, install Windows Terminal from the Microsoft Store."
+      url_mac: "https://support.apple.com/guide/terminal/welcome/mac"
+      url_windows: "https://aka.ms/terminal"
+
+    - title: "Git"
+      description: "Git is a version control system used to track changes in code and collaborate with others. Install it before using the command line or cloning the code repository."
+      url_mac: "https://git-scm.com/download/mac"
+      url_windows: "https://git-scm.com/download/win"
+
+    - title: "Spyder"
+      description: "Spyder is a Python development environment designed for scientific computing. It includes a code editor, variable explorer, and interactive console."
+      url: "https://www.spyder-ide.org/"
+
+    - title: "Visual Studio Code"
+      description: "VS Code is a general-purpose code editor with strong Python support, extensions, and an integrated terminal. A good choice if you prefer a more flexible editor than Spyder."
+      url_mac: "https://code.visualstudio.com/docs/setup/mac"
+      url_windows: "https://code.visualstudio.com/docs/setup/windows"
+
+- category: "Tutorials"
+  items:
+    - title: "Software Carpentry: The Unix Shell"
+      description: "An introduction to navigating the file system, running commands, and writing simple scripts in the Linux/Mac terminal. Start here if the command line is new to you."
+      url: "https://swcarpentry.github.io/shell-novice/"
+
+    - title: "Software Carpentry: Version Control with Git"
+      description: "A beginner-friendly guide to tracking changes with Git, working with branches, and collaborating on GitHub. Recommended before making your first commit to the analysis repository."
+      url: "https://swcarpentry.github.io/git-novice/"
+
+    - title: "Software Carpentry: Plotting and Programming in Python"
+      description: "An introduction to Python for people with little or no programming experience, using real scientific data. Covers data loading, functions, and visualization."
+      url: "https://swcarpentry.github.io/python-novice-gapminder/"
+
+    - title: "Data Carpentry: Data Analysis in Python"
+      description: "A practical introduction to the pandas library for loading, cleaning, and analyzing tabular data in Python. Recommended once you are comfortable with basic Python."
+      url: "https://datacarpentry.github.io/python-ecology-lesson/"
+
+- category: "Science Background"
+  items:
+    - title: "Program Science Overview"
+      description: "A video introduction to the science behind the alpha, n program. Recommended viewing for all new students before diving into the analysis."
+      url: "https://vimeo.com/1190569323"
+
+    - title: "Reference Papers"
+      description: "A curated collection of papers assembled by James deBoer covering the nuclear physics background relevant to the program. Hosted on Notre Dame Box."
+      url: "https://notredame.box.com/s/5wgtxxsn2sjkw51ldri00gkc120i0oom"

@@ -347,13 +347,19 @@ h1, h2, h3, h4 { line-height: 1.25; }
   color: $accent;
   margin-top: auto;
   &:hover { color: $accent-dark; }
+}
 
-  &.coming-soon {
-    color: $text-light;
-    font-style: italic;
-    font-weight: 400;
-    cursor: default;
-  }
+.resource-platform-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.platform-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: $accent;
+  &:hover { color: $accent-dark; }
 }
 
 /* Resource cards: no avatar, more padding */

@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/students/' | relative_url }}"{% if page.url == '/students/' %} class="active"{% endif %}>Students</a>
+      <a href="{{ '/resources/' | relative_url }}"{% if page.url == '/resources/' %} class="active"{% endif %}>Resources</a>
+      <a href="{{ '/staff/' | relative_url }}"{% if page.url == '/staff/' %} class="active"{% endif %}>Staff</a>
+    </nav>
+  </div>
+</header>

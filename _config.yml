@@ -1,0 +1,25 @@
+title: "alpha, n Workforce Development Program"
+description: "A grant-funded workforce development initiative supporting the next generation of researchers and professionals."
+baseurl: "/alpha-n-workforce-dev-website"
+url: "https://USERNAME.github.io"  # TODO: replace USERNAME with your GitHub username or org
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
+
+# Build
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-relative-links

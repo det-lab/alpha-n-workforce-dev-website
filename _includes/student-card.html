@@ -1,0 +1,14 @@
+<div class="card student-card">
+  <div class="card-avatar">
+    {% if include.student.photo and include.student.photo != "" %}
+      <img src="{{ include.student.photo | relative_url }}" alt="{{ include.student.name }}">
+    {% else %}
+      <img src="{{ '/assets/images/placeholder-avatar.svg' | relative_url }}" alt="Photo placeholder">
+    {% endif %}
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">{{ include.student.name }}</h3>
+    {% if include.student.program %}<p class="card-program">{{ include.student.program }}</p>{% endif %}
+    {% if include.student.bio %}<p class="card-bio">{{ include.student.bio }}</p>{% endif %}
+  </div>
+</div>

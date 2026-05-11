@@ -1,0 +1,17 @@
+- name: "Staff Member Name"
+  title: "Program Director"
+  bio: "Placeholder bio for this staff member. Update with real content."
+  email: "director@example.edu"
+  photo: ""
+
+- name: "Staff Member Name"
+  title: "Program Coordinator"
+  bio: "Placeholder bio for this staff member. Update with real content."
+  email: "coordinator@example.edu"
+  photo: ""
+
+- name: "Staff Member Name"
+  title: "Faculty Advisor"
+  bio: "Placeholder bio for this staff member. Update with real content."
+  email: "advisor@example.edu"
+  photo: ""

@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:bssw.io)"
+      "WebFetch(domain:bssw.io)",
+      "WebSearch",
+      "WebFetch(domain:physics.nd.edu)",
+      "WebFetch(domain:clas.ucdenver.edu)",
+      "WebFetch(domain:www.jsums.edu)",
+      "Bash(curl -sL \"https://www.nd.edu/assets/629070/600x600/deboer_2025_2_.jpg\" -o deboer-james.jpg)",
+      "Bash(curl -sL \"https://clas.ucdenver.edu/physics/sites/default/files/styles/small/public/people/faculty-roberts_amy-2.jpg?itok=9ijYrqNH\" -o roberts-amy.jpg)",
+      "Bash(curl -sL \"https://clas.ucdenver.edu/physics/sites/default/files/styles/small/public/people/villano_anthony_headshot.jpg?itok=UsaYadTU\" -o villano-anthony.jpg)",
+      "Bash(curl -sL \"https://www.jsums.edu/biology/files/2015/10/Photo.jpg\" -o noubissi-kamdem-felicite.jpg)",
+      "Bash(git *)"
     ]
   }
 }

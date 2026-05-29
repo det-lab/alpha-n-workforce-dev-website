@@ -12,6 +12,10 @@
       description: "The analysis code lives on GitHub. Request write access by contacting the program staff, then clone the repository to your local machine to get started."
       url: "https://github.com/det-lab/alpha-n-analysis/tree/main"
 
+    - title: "Shared Drive for Documents"
+      description: "A shared drive with documents for the program, including talk slides. Hosted on Notre Dame Box."
+      url: "https://notredame.box.com/s/5wgtxxsn2sjkw51ldri00gkc120i0oom"
+
 - category: "Software Installation"
   items:
     - title: "Terminal"
